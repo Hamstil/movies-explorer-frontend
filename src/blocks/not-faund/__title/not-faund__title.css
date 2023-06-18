@@ -1,0 +1,17 @@
+.not-faund__title {
+  padding: 0;
+  margin: 0 0 5px 0;
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 169px;
+  text-align: center;
+  color: #000;
+}
+
+@media screen and (max-width: 568px) {
+  .not-faund__title {
+    margin: 0 0 10px 0;
+    font-size: 80px;
+    line-height: 97px;
+  }
+}

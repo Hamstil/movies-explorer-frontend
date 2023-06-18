@@ -1,0 +1,32 @@
+.tech__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.04em;
+  color: #000000;
+  text-decoration: none;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  margin: 0;
+  height: 60px;
+  min-width: 90px;
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+.tech__link:hover {
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+
+@media screen and (max-width: 800px) {
+  .tech__link {
+    height: 57px;
+    min-width: 84px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

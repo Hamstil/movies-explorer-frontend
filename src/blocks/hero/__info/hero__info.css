@@ -1,0 +1,18 @@
+.hero__info {
+  max-width: 1200px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  padding-top: 160px;
+}
+
+@media screen and (max-width: 800px) {
+  .hero__info {
+    padding-top: 350px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero__info {
+    padding-top: 220px;
+  }
+}

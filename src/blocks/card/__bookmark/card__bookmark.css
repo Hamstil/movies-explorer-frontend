@@ -1,0 +1,18 @@
+.card__bookmark {
+  background: none;
+  background-image: url(/src/images/bookmark-disabled.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+.card__bookmark:hover {
+  opacity: 0.8;
+  transition: 0.3s ease;
+}

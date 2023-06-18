@@ -1,0 +1,12 @@
+.search__form-field-submit {
+  display: flex;
+  align-items: center;
+  min-height: 72px;
+  background-color: #f4f4f4;
+}
+
+@media screen and (max-width: 492px) {
+  .search__form-field-submit {
+    border-radius: 0 9px 9px 0;
+  }
+}

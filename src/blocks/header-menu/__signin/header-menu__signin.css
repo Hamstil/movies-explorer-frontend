@@ -1,0 +1,25 @@
+.header-menu__signin {
+    padding: 8px 20px;
+    background-color: #3456f3;
+    color: #ffffff;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+    opacity: 1;
+    transition: 0.3s ease;
+  }
+  
+  .header-menu__signin:hover {
+    opacity: 0.8;
+    transition: 0.3s ease;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header-menu__signin {
+      padding: 5px 12px;
+      font-size: 10px;
+    }
+  }
+  

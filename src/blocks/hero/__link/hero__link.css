@@ -1,0 +1,32 @@
+.hero__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  min-width: 96px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  margin: 0;
+  text-decoration: none;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+.hero__link:hover {
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+
+@media screen and (max-width: 500px) {
+  .hero__link {
+    height: 26px;
+    min-width: 82px;
+    font-size: 10px;
+    line-height: 16px;
+    border-radius: 6px;
+  }
+}

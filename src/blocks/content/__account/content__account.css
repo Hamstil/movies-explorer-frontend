@@ -1,0 +1,9 @@
+.content__account {
+  padding: 0 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .content__account {
+    padding: 70px 30px 40px 30px;
+  }
+}

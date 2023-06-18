@@ -1,0 +1,32 @@
+.student__portfolio-link-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: -0.04em;
+  color: #000000;
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+.student__portfolio-link-text:hover {
+  opacity: 0.7;
+  transition: 0.3s ease;
+}
+
+@media screen and (max-width: 800px) {
+  .student__portfolio-link-text {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .student__portfolio-link-text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

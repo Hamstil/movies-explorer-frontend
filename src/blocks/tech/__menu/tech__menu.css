@@ -1,0 +1,26 @@
+.tech__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 800px) {
+  .tech__menu {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .tech__menu:last-of-type {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 178px;
+    justify-content: start;
+  }
+}

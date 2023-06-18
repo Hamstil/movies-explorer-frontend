@@ -1,0 +1,28 @@
+.account__from-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 16px 0;
+  border-bottom: 1px solid #e8e8e8;
+  margin: 0 0 17px 0;
+}
+
+.account__from-field:last-of-type {
+  margin: 0 0 237px 0;
+  border-bottom: none;
+}
+
+@media screen and (max-width: 800px) {
+  .account__from-field:last-of-type {
+    margin: 0 0 227px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .account__from-field:last-of-type {
+    margin: 0 0 362px 0;
+  }
+}
+
+

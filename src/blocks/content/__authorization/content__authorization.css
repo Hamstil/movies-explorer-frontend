@@ -1,0 +1,9 @@
+.content__authorization {
+  padding: 0 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .content__authorization {
+    padding: 56px 30px 30px 30px;
+  }
+}

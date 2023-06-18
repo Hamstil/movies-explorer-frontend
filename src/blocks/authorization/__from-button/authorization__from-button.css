@@ -1,0 +1,20 @@
+.authorization__from-button {
+  background-color: #3456F3;;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  min-height: 45px;
+  text-align: center;
+  width: 100%;
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+.authorization__from-button:hover {
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
