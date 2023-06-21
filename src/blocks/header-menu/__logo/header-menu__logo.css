@@ -1,4 +1,10 @@
 .header-menu__logo {
   margin: 0 44px 0 0;
   display: flex;
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.header-menu__logo:hover {
+  opacity: 0.8;
 }

@@ -49,6 +49,7 @@
 @import url(./blocks/card/__title/card__title.css);
 @import url(./blocks/card/__duration/card__duration.css);
 @import url(./blocks/card/__bookmark/card__bookmark.css);
+@import url(./blocks/card/__bookmark-delete/card__bookmark-delete.css);
 @import url(./blocks/card/__bookmark/_enable/card__bookmark_enable.css);
 @import url(./blocks/card/__image/card__image.css);
 @import url(./blocks/content/content.css);
@@ -100,6 +101,7 @@
 @import url(./blocks/student/__description-link/student__description-link.css);
 @import url(./blocks/student/__image-avatar/student__image-avatar.css);
 @import url(./blocks/student/__title-portfolio/student__title-portfolio.css);
+@import url(./blocks/student/__portfolio-icon/student__portfolio-icon.css);
 @import url(./blocks/student/__portfolio-links/student__portfolio-links.css);
 @import url(./blocks/student/__portfolio-link/student__portfolio-link.css);
 @import url(./blocks/student/__portfolio-link-text/student__portfolio-link-text.css);

@@ -29,7 +29,7 @@ function App() {
     <div className="page">
       <Switch>
         <Route exact path="/">
-          <Header isLoggedIn={isLoggedIn} onPopupMenu={handlePopupMenuClick} />
+          <Header isLoggedIn={!isLoggedIn} onPopupMenu={handlePopupMenuClick} />
           <Main />
           <Footer />
         </Route>

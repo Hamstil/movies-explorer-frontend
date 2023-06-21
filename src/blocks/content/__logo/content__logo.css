@@ -1,5 +1,11 @@
 .content__logo {
   margin: 0 0 40px 0;
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.content__logo:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 500px) {

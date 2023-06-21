@@ -8,6 +8,12 @@
   cursor: pointer;
   height: 44px;
   width: 44px;
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.header-menu__burger:hover {
+  opacity: 0.6;
 }
 
 @media screen and (min-width: 800px) {

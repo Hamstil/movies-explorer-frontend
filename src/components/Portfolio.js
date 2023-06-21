@@ -10,7 +10,7 @@ function Portfolio() {
           className="student__portfolio-link-text"
           rel="noreferrer"
         >
-          Статичный сайт <span>↗</span>
+          Статичный сайт <span className="student__portfolio-icon">↗</span>
         </a>
       </li>
       <li className="student__portfolio-link">
@@ -20,7 +20,7 @@ function Portfolio() {
           className="student__portfolio-link-text"
           rel="noreferrer"
         >
-          Адаптивный сайт <span>↗</span>
+          Адаптивный сайт <span className="student__portfolio-icon">↗</span>
         </a>
       </li>
       <li className="student__portfolio-link">
@@ -30,7 +30,7 @@ function Portfolio() {
           className="student__portfolio-link-text"
           rel="noreferrer"
         >
-          Одностраничное приложение <span>↗</span>
+          Одностраничное приложение <span className="student__portfolio-icon">↗</span>
         </a>
       </li>
     </ul>

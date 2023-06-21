@@ -12,4 +12,10 @@
   width: 22px;
   top: 22.44px;
   right: 22.44px;
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.popup-menu__close:hover {
+  opacity: 0.6;
 }

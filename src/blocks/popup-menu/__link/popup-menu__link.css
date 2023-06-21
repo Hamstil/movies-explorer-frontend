@@ -6,4 +6,10 @@
   text-align: center;
   color: #000000;
   text-decoration: none;
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.popup-menu__link:hover {
+  opacity: 0.6;
 }

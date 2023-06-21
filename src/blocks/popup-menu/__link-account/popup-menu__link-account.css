@@ -13,6 +13,12 @@
   text-decoration: none;
   width: 100px;
   margin: 0 0 68px 0;
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.popup-menu__link-account:hover {
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 500px) {
