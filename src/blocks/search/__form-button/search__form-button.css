@@ -1,0 +1,24 @@
+.search__form-button {
+  background: none;
+  background-image: url(/src/images/find.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  height: 34px;
+  width: 34px;
+  margin: 0 30px 0 10px;
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.search__form-button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 800px) {
+  .search__form-button {
+    margin: 0 19px 0 10px;
+  }
+}

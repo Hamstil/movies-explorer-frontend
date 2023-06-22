@@ -1,0 +1,10 @@
+.about__time {
+  display: grid;
+  grid-template-columns: 228px 1fr;
+}
+
+@media screen and (max-width: 675px) {
+  .about__time {
+    grid-template-columns: 100px 1fr;
+  }
+}

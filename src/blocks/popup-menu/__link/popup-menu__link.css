@@ -1,0 +1,15 @@
+.popup-menu__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.popup-menu__link:hover {
+  opacity: 0.6;
+}

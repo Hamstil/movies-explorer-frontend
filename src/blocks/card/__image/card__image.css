@@ -1,0 +1,19 @@
+.card__image {
+  height: 203px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .card__image {
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card__image {
+    height: 168px;
+  }
+}
+

@@ -1,0 +1,19 @@
+.student__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 66px 0 101px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .student__info {
+    margin: 66px 0 90px 0;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .student__info {
+    flex-wrap: wrap-reverse;
+    margin: 60px 0 70px 0;
+  }
+}

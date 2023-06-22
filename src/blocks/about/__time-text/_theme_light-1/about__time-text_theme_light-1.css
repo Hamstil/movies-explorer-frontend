@@ -1,0 +1,11 @@
+.about__time-text_theme_light-1 {
+  color: #A0A0A0;
+  align-items: normal;
+  padding-top: 14px;
+}
+
+@media screen and (max-width: 500px) {
+  .about__time-text_theme_light-1 {
+    padding-top: 10px;
+  }
+}

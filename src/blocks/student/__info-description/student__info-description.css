@@ -1,0 +1,12 @@
+.student__info-description {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px 0 0;
+}
+
+@media screen and (max-width: 1036px) {
+  .student__info-description {
+    max-width: 364px;
+  }
+}

@@ -1,0 +1,22 @@
+.not-faund__link {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3456f3;
+  text-decoration: none;
+  margin: 184px 0 0 0;
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+.not-faund__link:hover {
+  opacity: 0.7;
+  transition: 0.3s ease;
+}
+
+@media screen and (max-width: 500px) {
+  .not-faund__link {
+    margin: 120px 0 0 0;
+  }
+}

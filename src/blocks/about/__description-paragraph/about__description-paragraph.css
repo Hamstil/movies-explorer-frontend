@@ -1,0 +1,23 @@
+.about__description-paragraph {
+  max-width: 550px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+@media screen and (max-width: 800px) {
+  .about__description-paragraph {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about__description-paragraph {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}

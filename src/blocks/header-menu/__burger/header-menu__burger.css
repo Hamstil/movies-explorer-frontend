@@ -1,0 +1,23 @@
+.header-menu__burger {
+  background: none;
+  background-image: url(/src/images/burger-menu.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.header-menu__burger:hover {
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 800px) {
+  .header-menu__burger {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.popup-menu__close {
+  background: none;
+  background-image: url(/src/images/menu_close-button_black.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  height: 22px;
+  opacity: 1;
+  position: absolute;
+  width: 22px;
+  top: 22.44px;
+  right: 22.44px;
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.popup-menu__close:hover {
+  opacity: 0.6;
+}

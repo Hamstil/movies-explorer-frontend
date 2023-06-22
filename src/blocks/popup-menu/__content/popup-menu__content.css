@@ -1,0 +1,16 @@
+.popup-menu__content {
+  background-color: #FAFAFA;
+  box-sizing: border-box;
+  width: 520px;
+  padding: 22.44px;
+  position: relative;
+  right: -520px;
+  transition: .3s ease;
+}
+
+@media screen and (max-width: 500px) {
+  .popup-menu__content {
+    width: 100%;
+    padding: 13.44px;
+  }
+}

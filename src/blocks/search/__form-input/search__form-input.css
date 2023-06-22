@@ -1,0 +1,27 @@
+.search__form-input {
+  background: none;
+  background-image: url(/src/images/magnifier.svg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  height: 22px;
+  margin: 0;
+  padding: 0 0 0 32.19px;
+  width: 60%;
+}
+
+.search__form-input::placeholder {
+  color: #A0A0A0;
+}
+
+@media screen and (max-width: 572px) {
+  .search__form-input {
+    background-image: none;
+    padding: 0;
+  }
+}

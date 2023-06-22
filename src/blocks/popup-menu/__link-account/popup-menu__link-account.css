@@ -1,0 +1,28 @@
+.popup-menu__link-account {
+  align-items: center;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  color: #000;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  height: 32px;
+  justify-content: center;
+  line-height: 16px;
+  text-decoration: none;
+  width: 100px;
+  margin: 0 0 68px 0;
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.popup-menu__link-account:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 500px) {
+  .popup-menu__link-account {
+    margin: 0 0 33px 0;
+  }
+}

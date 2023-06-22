@@ -1,0 +1,11 @@
+.student__portfolio-link {
+  margin: 0 0 20px 0;
+  padding: 0 0 19px 0;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.student__portfolio-link:last-child {
+  border-bottom: none;
+  padding: 0;
+  margin: 0;
+}

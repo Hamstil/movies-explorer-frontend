@@ -1,0 +1,15 @@
+.content__student {
+  padding: 110px 70px 125px 70px;
+}
+
+@media screen and (max-width: 800px) {
+  .content__student {
+    padding: 90px 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content__student {
+    padding: 70px 14px;
+  }
+}
