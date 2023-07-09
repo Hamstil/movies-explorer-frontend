@@ -6,3 +6,5 @@
 Ссылка на уделенный: api: https://api.hamstildiploma.nomoredomains.monster
 Ссылка на фронтенд: https://hamstildiploma.nomoredomains.monster/
 Ссылка на api фильмов: https://api.nomoreparties.co/beatfilm-movies
+
+Ссылка на пулл реквест: https://github.com/Hamstil/movies-explorer-frontend/pull/2
