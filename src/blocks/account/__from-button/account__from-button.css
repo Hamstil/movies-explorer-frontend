@@ -9,8 +9,7 @@
   line-height: 17px;
   min-height: 45px;
   text-align: center;
-  width: 100%;
-  display: none;
+  width: 100%;  
   opacity: 1;
   transition: 0.3s ease;
 }

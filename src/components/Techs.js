@@ -1,24 +1,97 @@
 import React from "react";
 
 function Techs() {
-    return (
+  return (
     <section className="tech content__tech" id="tech">
-        <div className="tech__info">
-            <h2 className="section-title">Технологии</h2>
-            <h3 className="tech__title">7 технологий</h3>
-            <p className="tech__subtitle">На курсе веб-разработки мы освоили технологии, которые применили в дипломном проекте.</p>
-            <ul className="tech__menu">
-            <li><a href="https://doka.guide/html/" aria-label="HTML" className="tech__link" target="_blank" rel="noreferrer" >HTML</a></li>
-            <li><a href="https://doka.guide/css/" aria-label="CSS" className="tech__link" target="_blank" rel="noreferrer" >CSS</a></li>
-            <li><a href="https://doka.guide/js/" aria-label="JS" className="tech__link" target="_blank" rel="noreferrer" >JS</a></li>
-            <li><a href="https://ru.react.js.org/" aria-label="React" className="tech__link" target="_blank" rel="noreferrer" >React</a></li>
-            <li><a href="https://git-scm.com/" aria-label="Git" className="tech__link" target="_blank" rel="noreferrer" >Git</a></li>
-            <li><a href="https://expressjs.com/ru/" aria-label="Express.js" className="tech__link" target="_blank" rel="noreferrer" >Express.js</a></li>
-            <li><a href="https://www.mongodb.com/" aria-label="mongoDB" className="tech__link" target="_blank" rel="noreferrer" >mongoDB</a></li>
-            </ul>
-        </div>
-        </section>
-    )
+      <div className="tech__info">
+        <h2 className="section-title">Технологии</h2>
+        <h3 className="tech__title">7 технологий</h3>
+        <p className="tech__subtitle">
+          На курсе веб-разработки мы освоили технологии, которые применили в
+          дипломном проекте.
+        </p>
+        <ul className="tech__menu">
+          <li>
+            <a
+              href="https://doka.guide/html/"
+              aria-label="HTML"
+              className="tech__link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              HTML
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://doka.guide/css/"
+              aria-label="CSS"
+              className="tech__link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              CSS
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://doka.guide/js/"
+              aria-label="JS"
+              className="tech__link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              JS
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://ru.react.js.org/"
+              aria-label="React"
+              className="tech__link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              React
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://git-scm.com/"
+              aria-label="Git"
+              className="tech__link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Git
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://expressjs.com/ru/"
+              aria-label="Express.js"
+              className="tech__link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Express.js
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.mongodb.com/"
+              aria-label="mongoDB"
+              className="tech__link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              mongoDB
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
 }
 
 export default Techs;

@@ -1,0 +1,7 @@
+.account__from-field-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 0.75;
+    align-items: end;
+}
