@@ -103,6 +103,8 @@ function App() {
   // метод обновления данных профиля
   function handleUpdateUser(name, email) {
     setIsLoading(true);
+    setIsRequestError(false);
+    setIsSuccessUpdateUser(false);
     mainApi
       .updateUser(name, email)
       .then((data) => {

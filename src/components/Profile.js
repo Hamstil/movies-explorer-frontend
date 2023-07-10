@@ -1,4 +1,4 @@
-import React, { useContext, useState, useRef } from "react";
+import React, { useContext, useState, useRef, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import useFormWithValidation from "../hooks/useFormWithValidation";
 import useErrrorToText from "../hooks/useErrrorToText";
@@ -73,6 +73,15 @@ function Profile({
       return false;
     }
   }
+
+  // появление кнопок редактирования и выхода после запроса на обновление профиля
+  useEffect(() => {
+    if (isRequestError || isSuccessUpdateUser) {
+      setTimeout(() => {
+        setIsFocusInput(false);
+      }, 2000);
+    }
+  }, [isRequestError, isSuccessUpdateUser]);
 
   return (
     <>
