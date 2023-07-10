@@ -9,7 +9,7 @@ import {
   CARDS_VIEW_S,
 } from "../utils/constants";
 
-function MoviesCardList({
+function MoviesCardList({  
   isNotFoundMovies,
   movies,
   savedMovies,

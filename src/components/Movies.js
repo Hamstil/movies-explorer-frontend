@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Header from "./Header";
 import SearchForm from "./SearchForm";
-import Preloader from "./Preloader";
 import MoviesCardList from "./MoviesCardList";
 import Footer from "./Footer";
 import { DURATION_FILTR } from "../utils/constants";
@@ -117,20 +116,16 @@ function Movies({
         isCheckbox={isCheckbox}
         onCheckbox={handleCheckbox}
       />
-      {isLoading ? (
-        <Preloader />
-      ) : (
-        <MoviesCardList
-          isSavedFilms={false}
-          isLoading={isLoading}
-          onMovieAddMark={onMovieAddMark}
-          isNotFoundMovies={isNotFoundMovies}
-          savedMovies={savedMovies}
-          onMovieDelete={onMovieDelete}
-          movies={isFoundCheckboxMovies}
-          isQueryError={isQueryError}
-        />
-      )}
+      <MoviesCardList
+        isSavedFilms={false}
+        isLoading={isLoading}
+        onMovieAddMark={onMovieAddMark}
+        isNotFoundMovies={isNotFoundMovies}
+        savedMovies={savedMovies}
+        onMovieDelete={onMovieDelete}
+        movies={isFoundCheckboxMovies}
+        isQueryError={isQueryError}
+      />
 
       <Footer />
     </main>

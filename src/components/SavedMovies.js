@@ -2,7 +2,6 @@ import { React, useState, useEffect } from "react";
 import { DURATION_FILTR } from "../utils/constants";
 import Header from "./Header";
 import SearchForm from "./SearchForm";
-import Preloader from "./Preloader";
 import MoviesCardList from "./MoviesCardList";
 import Footer from "./Footer";
 
@@ -77,18 +76,15 @@ function SavedMovies({
         onCheckbox={handleCheckbox}
         onSearchMovies={handleSearchMoviesSaved}
       />
-      {isLoading ? (
-        <Preloader />
-      ) : (
-        <MoviesCardList
-          isSavedFilms={true}
-          isQueryError={isQueryError}
-          isNotFoundMovies={isNotFoundMovies}
-          movies={isSavedMovies}
-          savedMovies={savedMovies}
-          onMovieDelete={onMovieDelete}
-        />
-      )}
+      <MoviesCardList
+        isLoading={isLoading}
+        isSavedFilms={true}
+        isQueryError={isQueryError}
+        isNotFoundMovies={isNotFoundMovies}
+        movies={isSavedMovies}
+        savedMovies={savedMovies}
+        onMovieDelete={onMovieDelete}
+      />      
       <Footer />
     </main>
   );
