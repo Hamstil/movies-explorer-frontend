@@ -30,7 +30,8 @@ function Portfolio() {
           className="student__portfolio-link-text"
           rel="noreferrer"
         >
-          Одностраничное приложение <span className="student__portfolio-icon">↗</span>
+          Одностраничное приложение{" "}
+          <span className="student__portfolio-icon">↗</span>
         </a>
       </li>
     </ul>

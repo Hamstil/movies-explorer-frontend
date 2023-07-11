@@ -1,0 +1,8 @@
+.account__from-request-success {
+  margin: 0;
+  padding: 0 0 20px 0;
+  font-family: Inter;
+  color: green;
+  text-align: center;
+  font-size: 11px;
+}
